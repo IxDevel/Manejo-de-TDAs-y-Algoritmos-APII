@@ -16,7 +16,7 @@
 
  El código se encuentra estructurado en archivos de encabezado ".h" y de implementación ".cpp"
 
-### Algoritmos de Ordenamiento
+### Algoritmos de Ordenamiento (En revisón)
 
 En esta sección encontrarán el código relacinado con los algortimos de ordenamiento sobre enteros:
 
@@ -40,7 +40,7 @@ De estas se implementaron:
 - Listas simplemente enlazadas ciculares
 - Listas doblemente enlazadas circulares
 - Multilistas
-- Mallas
+- Mallas (Sin incluir)
 
 ### Pilas y Colas
 
@@ -104,13 +104,12 @@ En C se emplean los siguientes métodos para el manejo de memoria dinamicamente:
 
 - Malloc(), calloc(), alloc()...
 
-puntero al dato = (cast al puntero del tipo de dato) malloc(sizeof(dato) * numero_de_datos)
+puntero al dato = (cast al tipo de dato) malloc(sizeof(tipo de dato) * numero_de_datos);
 
 Crearemos un array:
 ```shell
 int *array = (int *) malloc(sizeof(int)*10);
 ```
-
 
 Para liberar la memoria utilizamos la siguiente instrucción
 ```shell
@@ -122,4 +121,4 @@ En el curso se utilizará la forma en que se hace en C++, es decir utilizarán "
 
  ## Licencia
 
- La licencia de es repositorio es MIT, la idea es que aprendan y puedan utilizar el código fuente para lo que requieran, siempre y cuando respeten las clausulas de la misma.
+ La licencia de es repositorio es MIT, la idea es que aprendan y puedan utilizar el código fuente para lo que requieran, siempre y cuando respeten los términos de la misma.
