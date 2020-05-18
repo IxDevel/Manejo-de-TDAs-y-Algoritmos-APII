@@ -77,7 +77,7 @@ void insertarPorFondoMultilista(struct multi** ppLista) {
 void buscarElementoMultilista(struct multi* pLista, int valor) {
 	if (pLista) {
 		for (; pLista; pLista = pLista->siguiente) {
-			if (pLista->valor = valor)
+			if (pLista->valor == valor)
 				printf_s("\n\tEncontré el valor en la multilista\n");
 			buscarElementoPila(&pLista->abajo, valor);
 		}
