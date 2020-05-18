@@ -63,5 +63,6 @@ void menuPrincipal() {
 int main() {
 	setlocale(LC_ALL, ""); // Esto nos permite imprimir cosas con ascentos
 	menuPrincipal();
+	return 0;
 }
 
